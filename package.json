@@ -1,0 +1,22 @@
+{
+  "name": "hg12-rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "This is a rock,paper,scissor game",
+  "main": "main.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hadiqa Gohar",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
